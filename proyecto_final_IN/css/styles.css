@@ -1,0 +1,18 @@
+/* Fuente base */
+body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+
+/* Estilos de Botones de Navegación */
+.tab-btn.active {
+    background-color: #e0e7ff;
+    color: #4338ca;
+    border-left: 4px solid #4338ca;
+}
+.tab-btn { border-left: 4px solid transparent; }
+
+/* Animaciones */
+.fade-in { animation: fadeIn 0.4s ease-in-out; }
+
+@keyframes fadeIn { 
+    from { opacity: 0; transform: translateY(10px); } 
+    to { opacity: 1; transform: translateY(0); } 
+}
