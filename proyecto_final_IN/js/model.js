@@ -9,7 +9,7 @@ class ProjectModel {
     async fetchProjects() {
         try {
             // Hacemos la petición a tu servidor local (el que crearemos en el paso 2)
-            const response = await fetch('http://dashboard-dss-buap-production.up.railway.app/api/datos');
+            const response = await fetch('https://dashboard-dss-buap-production.up.railway.app/api/datos');
 
             if (!response.ok) throw new Error('Error en la respuesta del servidor');
 
